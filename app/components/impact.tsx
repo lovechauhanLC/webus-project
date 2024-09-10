@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Impact() {
   return (
     <div>
-      <div className="w-[1460px] h-[802px] absolute -inset-x-[2px] inset-y-[4080px] bg-[#f9f9f9] ">
+      <div className="w-[1450px] h-[802px] absolute -inset-x-[2px] inset-y-[4080px] bg-[#f9f9f9] ">
       </div>
       <div className="w-[553px] h-[191px] absolute inset-x-[93px] inset-y-[4200px]">
           <h1 className="font-light text-[64px] leading-[64px] ">
@@ -16,7 +16,7 @@ export default function Impact() {
       <Image
           src="/image/Maskgroup.png"
           alt="random"
-          width={656}
+          width={590}
           height={521}
           className="absolute inset-x-[852px] inset-y-[4080px]"
         />
