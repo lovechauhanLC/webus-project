@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="relative mb-[100px]">
+    <div className="mb-[100px]">
       <div className="w-[1270px] h-[420px] absolute inset-x-[91px] inset-y-[5560px]"></div>
       <div className="w-[1263px] absolute inset-x-[91px] inset-y-[5563px] border border-black"></div>
       <h1 className="w-[350px] absolute h-[65px] inset-x-[91px] inset-y-[5620px] font-black text-[64px] leading-[64px]">

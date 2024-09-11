@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Clients(){
     return(
-        <div className="relative">
+        <div>
             <div className="w-[1442px] h-[610px] absolute -inset-x-[1px] inset-y-[4880px]"></div>
             <Image src="/image/clientbg.png" alt='companies' width={1442} height={610} className="absolute -inset-x-[2px] inset-y-[4880px] opacity-20"/>
             <h1 className="w-[518px] h-[64px] absolute inset-x-[460px] inset-y-[5036px] font-light text-[64px] leading-[64px] text-center">Clients we praise</h1>

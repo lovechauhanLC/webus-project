@@ -23,7 +23,7 @@ export default function CaseStudies() {
             <p className="w-[83px] h-30px font-normal text-[16px] leading-[30px] text-red-600 ">
               Know More
             </p>
-            <div className="w-[32px] border-2 border-[#EE202E] "></div>
+            <div className="w-[32px] border-b border-[1px] border-[#EE202E] hover:w-[83px] ease-in-out duration-100"></div>
           </div>
         </a>
       </div>
@@ -49,7 +49,7 @@ export default function CaseStudies() {
             <p className="w-[83px] h-30px font-normal text-[16px] leading-[30px] text-red-600 ">
               Know More
             </p>
-            <div className="w-[32px] border-2 border-[#EE202E] "></div>
+            <div className="w-[32px] border-[1px] border-[#EE202E] "></div>
           </div>
         </a>
       </div>
@@ -75,7 +75,7 @@ export default function CaseStudies() {
             <p className="w-[83px] h-30px font-normal text-[16px] leading-[30px] text-red-600 ">
               Know More
             </p>
-            <div className="w-[32px] border-2 border-[#EE202E] "></div>
+            <div className="w-[32px] border-[1px] border-[#EE202E] "></div>
           </div>
         </a>
       </div>
