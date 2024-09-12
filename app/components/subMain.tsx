@@ -11,7 +11,7 @@ import Sidebar from "./SideBar";
 import Intro from "./intro";
 import Cards from "./cards";
 
-export default function Home() {
+export default function Hero() {
   const [number, setNumber] = useState(1);
   const [active, setActive] = useState<number>(1);
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +22,14 @@ export default function Home() {
   return (
     <div className="">
       {isOpen && <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />}
-      <div className="p-10">
+        <div className="p-10">
         <h1 className="text-3xl"></h1>
-      </div>
+        </div>
 
-      <div className="min-h-screen bg-gray-100">
+        <div className="min-h-screen">
         <Navbar setIsOpen={setIsOpen} />
         <main className="p-10"></main>
-      </div>
+        </div>
 
       
         {/* Left Sidebar */}

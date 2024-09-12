@@ -7,12 +7,13 @@ import Intro from "./intro";
 import Navbar from "./Navbar";
 import ProjectIntro from "./projectIntro";
 import RightCoreMain from "./RightCoreMain";
-import Home from "./subMain";
+import Hero from "./subMain";
+
 
 export default function PageOne(){
     return(
         <>
-            <Home/>
+            <Hero/>
             <ProjectIntro/>
             <CaseStudies/>
             <Impact/>

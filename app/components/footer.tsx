@@ -3,61 +3,90 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="mb-[100px]">
-      <div className="w-[1270px] h-[420px] absolute inset-x-[91px] inset-y-[5560px]"></div>
-      <div className="w-[1263px] absolute inset-x-[91px] inset-y-[5563px] border border-black"></div>
-      <h1 className="w-[350px] absolute h-[65px] inset-x-[91px] inset-y-[5620px] font-black text-[64px] leading-[64px]">
+      <div className="sm:w-[1270px] sm:h-[420px] absolute sm:inset-x-[91px] sm:inset-y-[5560px]"></div>
+      <div className="sm:w-[1263px] absolute sm:inset-x-[91px] sm:inset-y-[5563px] border border-black
+      w-[331px] inset-x-[36px] inset-y-[5063px]"></div>
+      <h1 className="sm:w-[350px] absolute sm:h-[65px] sm:inset-x-[91px] sm:inset-y-[5620px] font-black sm:text-[64px] sm:leading-[64px]
+      w-[183px] h-[36px] inset-x-[36px] inset-y-[5080px] text-[36px] leading-[36px]">
         LET’S TALK
       </h1>
-        <Image src="/image/w.png" alt="w" width={140} height={60} className="absolute inset-x-[1160px] inset-y-[5585px]"/>
-      <div className="w-[1263px] absolute inset-x-[91px] inset-y-[5723px] border border-black"></div>
+      <Image
+        src="/image/w.png"
+        alt="w"
+        width={74}
+        height={55}
+        className="absolute sm:inset-x-[1160px] sm:inset-y-[5585px] sm:w-[140px] sm:h-[60px]
+        inset-x-[292px] inset-y-[5091px] "
+      />
+      <div className="sm:w-[1263px] absolute sm:inset-x-[91px] sm:inset-y-[5723px] border border-black
+      w-[331px] inset-x-[36px] inset-y-[5172px]"></div>
       <div>
-        <h2 className="w-[82px] absolute h-[25px] inset-x-[91px] inset-y-[5765px] font-medium text-[25px] leading-[25px]">
+        <h2 className="sm:w-[82px] absolute sm:h-[25px] sm:inset-x-[91px] sm:inset-y-[5765px] font-medium sm:text-[25px] sm:leading-[25px]
+        w-[60x] h-[18px] inset-x-[36px] inset-y-[5208px] text-[18px] leading-[18px]">
           WEBUS
         </h2>
-        <div className="w-[252px] absolute h-[90px] inset-x-[91px] inset-y-[5800px] ">
-          <h3 className="font-bold text-[16px] leading-[30px]">Delhi, INDIA</h3>
-          <span className=" font-normal text-[16px] leading-[30px]">
+        <div className="sm:w-[252px] absolute sm:h-[90px] sm:inset-x-[91px] sm:inset-y-[5800px] 
+        w-[166px] h-[90px] inset-x-[36px] inset-y-[5245px]">
+          <h3 className="font-bold sm:text-[16px] sm:leading-[30px]
+          text-[14px] leading-[30px]">Delhi, INDIA</h3>
+          <span className=" font-normal sm:text-[16px] sm:leading-[30px]
+          text-[14px] leading-[30px]">
             A-10 Vishwakarma colony New Delhi - 110044
           </span>
         </div>
 
-        <div className="w-[252px] absolute h-[90px] inset-x-[385px] inset-y-[5800px] ">
-          <h3 className="font-bold text-[16px] leading-[30px]">
+        <div className="sm:w-[252px] absolute sm:h-[90px] sm:inset-x-[385px] sm:inset-y-[5800px] 
+        w-[147px] h-[90px] inset-x-[231px] inset-y-[5245px] ">
+          <h3 className="font-bold sm:text-[16px] sm:leading-[30px]
+          text-[14px] leading-[30px]">
             Tennessee, US
           </h3>
-          <span className=" font-normal text-[16px] leading-[30px]">
+          <span className=" font-normal sm:text-[16px] sm:leading-[30px]
+          text-[14px] leading-[30px]">
             1000 Battlefield drive Nashville TN 37204
           </span>
         </div>
 
         <div>
           <div>
-            <p className="w-[51px] h-[30px] absolute inset-x-[1026px] inset-y-[5806px] font-normal text-[18px] leading-[30px]">
+            <p className="sm:w-[51px] sm:h-[30px] absolute sm:inset-x-[1026px] sm:inset-y-[5806px] font-normal sm:text-[18px] sm:leading-[30px]
+            w-[45px] h-[30px] inset-x-[35px] inset-y-[5371px] text-[14px] leading-[30px]">
               ABOUT
             </p>
-            <p className="w-[46px] h-[30px] absolute inset-x-[1108px] inset-y-[5806px] font-normal text-[18px] leading-[30px]">
+            <p className="sm:w-[46px] sm:h-[30px] absolute sm:inset-x-[1108px] sm:inset-y-[5806px] font-normal sm:text-[18px] sm:leading-[30px]
+            w-[40px] h-[30px] inset-x-[117px] inset-y-[5371px] text-[14px] leading-[30px]">
               WORK
             </p>
-            <p className="w-[71px] h-[30px] absolute inset-x-[1185px] inset-y-[5806px] font-normal text-[18px] leading-[30px]">
+            <p className="sm:w-[71px] sm:h-[30px] absolute sm:inset-x-[1185px] sm:inset-y-[5806px] font-normal sm:text-[18px] sm:leading-[30px]
+            w-[61px] h-[30px] inset-x-[194px] inset-y-[5371px] text-[14px] leading-[30px]">
               EXPERTISE
             </p>
-            <p className="w-[71px] h-[30px] absolute inset-x-[1283px] inset-y-[5806px] font-normal text-[18px] leading-[30px]">
+            <p className="sm:w-[71px] sm:h-[30px] absolute sm:inset-x-[1283px] sm:inset-y-[5806px] font-normal sm:text-[18px] sm:leading-[30px]
+            w-[62px] h-[30px] inset-x-[292px] inset-y-[5371px] text-[14px] leading-[30px]">
               CONTACT
             </p>
           </div>
           <div>
-          <p className="w-[65px] h-[30px] absolute inset-x-[1160px] inset-y-[5855px] font-normal text-[18px] leading-[30px] text-[#0085FF]">
-          LINKEDIN
+            <p className="sm:w-[65px] sm:h-[30px] absolute sm:inset-x-[1160px] sm:inset-y-[5855px] font-normal sm:text-[18px] sm:leading-[30px] text-[#0085FF]
+            w-[57px] h-[30px] inset-x-[97px] inset-y-[5420px] text-[14px] leading-[30px]">
+              LINKEDIN
             </p>
-            <p className="w-[85px] h-[30px] absolute inset-x-[1266px] inset-y-[5855px] font-normal text-[18px] leading-[30px] text-[#EE202E] ">
-            INSTAGRAM
+            <p className="sm:w-[85px] sm:h-[30px] absolute sm:inset-x-[1266px] sm:inset-y-[5855px] font-normal sm:text-[18px] sm:leading-[30px] text-[#EE202E] 
+            w-[75px] h-[30px] inset-x-[210px] inset-y-[5420px] text-[14px] leading-[30px]">
+              INSTAGRAM
             </p>
           </div>
         </div>
-        
+
         <div>
-            <p className="w-[115px] h-[30px] absolute inset-x-[600px] inset-y-[5952px] font-normal text-[14px] leading-[30px]">PRIVACY POLICY</p>
-            <p className="w-[110px] h-[30px] absolute inset-x-[746px] inset-y-[5952px] font-normal text-[14px] leading-[30px]">COOKIE POLICY</p>
+          <p className="sm:w-[115px] sm:h-[30px] absolute sm:inset-x-[600px] sm:inset-y-[5952px] font-normal sm:text-[14px] sm:leading-[30px]
+          w-[120px] h-[30px] inset-x-[68px] inset-y-[5468px] text-[14px] leading-[30px]">
+            PRIVACY POLICY
+          </p>
+          <p className="sm:w-[110px] sm:h-[30px] absolute sm:inset-x-[746px] sm:inset-y-[5952px] font-normal sm:text-[14px] sm:leading-[30px]
+          w-[110px] h-[30px] inset-x-[220px] inset-y-[5468px] text-[14px] leading-[30px]">
+            COOKIE POLICY
+          </p>
         </div>
       </div>
     </div>

@@ -13,15 +13,19 @@ const RightCore = ({
 }: any) => {
   return (
     <div>
-      <h1 className="w-[550px] h-[65px] absolute inset-y-[1214px] inset-x-[90px] text-6xl leading-[64px] font-light ">
+      <h1 className="sm:w-[550px] sm:h-[65px] absolute sm:inset-y-[1214px] sm:inset-x-[90px] sm:text-6xl sm:leading-[64px] font-light 
+      w-[255px] h-[36px] inset-y-[1124px] inset-x-[31px] text-4xl leading-[36px]">
         Core Expertise
       </h1>
-        <div className="absolute inset-y-[1350px] inset-x-[475px] w-[865px] h-[530px] border-t border-r border-b border-black p-12 ">
+        <div className="absolute sm:inset-y-[1350px] sm:inset-x-[475px] sm:w-[865px] sm:h-[530px] border-t border-r border-b border-black p-12 
+        w-[328px] h-[627px] ">
           {/* Heading Section */}
-          <h2 className=" font-geomanist text-[25px] font-bold leading-[40px] text-left">
+          <h2 className=" font-geomanist sm:text-[25px] font-bold sm:leading-[40px] text-left
+          text-[18px] leading-[30px] ">
             {heading}
           </h2>
-          <p className="mt-2 mb-8 font-geomanist text-[16px] font-normal leading-[25px] text-left">
+          <p className="mt-2 mb-8 font-geomanist sm:text-[16px] font-normal sm:leading-[25px] text-left
+          text-[18px] leading-[30px]">
             {para}
           </p>
 
@@ -42,7 +46,8 @@ const RightCore = ({
         </button>
     </div> */}
 
-          <button className="border border-black p-2 w-28 h-12 flex flex-row justify-between px-4 font-semibold mt-[40px] hover:bg-red-500 hover:text-white hover:border-none duration-300 ">
+          <button className="border border-black sm:p-2 sm:w-28 sm:h-12 flex flex-row sm:justify-between sm:px-4 font-semibold sm:mt-[40px] sm:hover:bg-red-500 sm:hover:text-white sm:hover:border-none sm:duration-300 sm:gap-0
+          w-[267px] h-[47px] pt-2.5 pb-2.5 pr-3 pl-[100px] gap-[15px] text-[16px] ">
             <p>Explore</p>
             <span className=" w-[12px] h-[14px] gap-0 border-t-2 border-transparent">
               ↗️
