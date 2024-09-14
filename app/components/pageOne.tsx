@@ -6,19 +6,21 @@ import Impact from "./impact";
 import Intro from "./intro";
 import Navbar from "./Navbar";
 import ProjectIntro from "./projectIntro";
-import RightCoreMain from "./RightCoreMain";
-import Hero from "./subMain";
+import Expertise from "./expertise";
 
 
 export default function PageOne(){
     return(
-        <>
-            <Hero/>
+        <div className=" relative "> 
+            <Navbar/>
+            <Intro/>
+            <Cards/>
+            <Expertise/>
             <ProjectIntro/>
             <CaseStudies/>
             <Impact/>
             <Clients/>
             <Footer/>
-        </>
+        </div>
     );
 }

@@ -46,7 +46,7 @@ const RightCore = ({
         </button>
     </div> */}
 
-          <button className="border border-black sm:p-2 sm:w-28 sm:h-12 flex flex-row sm:justify-between sm:px-4 font-semibold sm:mt-[40px] sm:hover:bg-red-500 sm:hover:text-white sm:hover:border-none sm:duration-300 sm:gap-0
+          <button className="border border-black sm:p-2 sm:w-28 sm:h-12 flex flex-row sm:justify-between sm:px-4 font-semibold sm:mt-[40px] sm:hover:bg-[#EE202E] sm:hover:text-white sm:hover:border-none sm:duration-300 sm:gap-0
           w-[267px] h-[47px] pt-2.5 pb-2.5 pr-3 pl-[100px] gap-[15px] text-[16px] ">
             <p>Explore</p>
             <span className=" w-[12px] h-[14px] gap-0 border-t-2 border-transparent">

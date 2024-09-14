@@ -15,7 +15,7 @@ export default function Footer() {
         alt="w"
         width={74}
         height={55}
-        className="absolute sm:inset-x-[1160px] sm:inset-y-[5585px] sm:w-[140px] sm:h-[60px]
+        className="absolute sm:inset-x-[1160px] sm:inset-y-[5620px] sm:w-[140px] sm:h-[60px]
         inset-x-[292px] inset-y-[5091px] "
       />
       <div className="sm:w-[1263px] absolute sm:inset-x-[91px] sm:inset-y-[5723px] border border-black

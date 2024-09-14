@@ -1,35 +1,25 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Navbar from "./Navbar";
+
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Arrow from "../assets/ep_top-right.png";
-import RightCore from "./RightCoreMain";
+import RightCore from "./RightCore";
 import Sidebar from "./SideBar";
 import Intro from "./intro";
 import Cards from "./cards";
 
-export default function Hero() {
+export default function Expertise() {
   const [number, setNumber] = useState(1);
   const [active, setActive] = useState<number>(1);
-  const [isOpen, setIsOpen] = useState(false);
   const handleClick = (num: number) => {
     setNumber(num);
     setActive(num);
   };
   return (
     <div className="">
-      {isOpen && <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />}
-        <div className="p-10">
-        <h1 className="text-3xl"></h1>
-        </div>
-
-        <div className="min-h-screen">
-        <Navbar setIsOpen={setIsOpen} />
-        <main className="p-10"></main>
-        </div>
 
       
         {/* Left Sidebar */}
@@ -87,8 +77,7 @@ export default function Hero() {
           </div>
         </div>
 
-            <Intro/>
-            <Cards/>
+            
 
         {/* Right Content Area */}
         {number === 1 && (

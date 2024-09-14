@@ -13,7 +13,7 @@ export default function Clients(){
             w-[153px] h-[30px] inset-x-[32px] inset-y-[4840px] text-[18px] leading-[30px]">Proudly winners of</p>
             <div className="absolute sm:inset-x-[90px] sm:inset-y-[5220px] sm:w-[1263px] sm:h-[136px] 
             inset-x-[38px] inset-y-[4907px] gap-2.5">
-                <Image src="/image/Group86301.png" alt='companies' width={354} height={80}/>
+                <Image src="/image/Group86301.png" alt='companies' width={354} height={80} className="sm:w-[1260px] sm:136px "/>
             </div>
         </div>
     );

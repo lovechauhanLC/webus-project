@@ -2,10 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @media only screen and (max-width: 390px) {
-        body {
-          margin-left: -10px;
-        }
-      }
-}
+
